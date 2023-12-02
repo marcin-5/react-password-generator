@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
