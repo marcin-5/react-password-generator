@@ -1,3 +1,4 @@
+import { generatePassword } from "../../lib/password";
 import s from "./style.module.css";
 
 export function PasswordGeneratorBody(props) {
@@ -5,8 +6,7 @@ export function PasswordGeneratorBody(props) {
     e.preventDefault();
     const formData = {};
     new FormData(e.currentTarget).forEach((value, key) => (formData[key] = value));
-    console.log(formData);
-    props.onSubmit("Generated Password");
+    props.onSubmit(generatePassword(formData));
   };
 
   return (
