@@ -3,6 +3,7 @@
   position: relative;
   padding: 40px;
   font-size: xx-large;
+  font-family: monospace;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -10,6 +11,6 @@
 
 .icon {
   position: absolute;
-  right: 50px;
+  right: 40px;
   width: 20px;
 }
